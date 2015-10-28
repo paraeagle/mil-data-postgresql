@@ -1,0 +1,29 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Part name:</strong>
+  <%= @inventory_item.part_name %>
+</p>
+
+<p>
+  <strong>Failure mode:</strong>
+  <%= @inventory_item.failure_mode %>
+</p>
+
+<p>
+  <strong>Severity:</strong>
+  <%= @inventory_item.severity %>
+</p>
+
+<p>
+  <strong>Current control:</strong>
+  <%= @inventory_item.current_control %>
+</p>
+
+<p>
+  <strong>Recommended action:</strong>
+  <%= @inventory_item.recommended_action %>
+</p>
+
+<%= link_to 'Edit', edit_inventory_item_path(@inventory_item) %> |
+<%= link_to 'Back', inventory_items_path %>

@@ -1,0 +1,15 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  part_name: MyString
+  failure_mode: MyString
+  severity: 1
+  current_control: MyString
+  recommended_action: MyString
+
+two:
+  part_name: MyString
+  failure_mode: MyString
+  severity: 1
+  current_control: MyString
+  recommended_action: MyString
